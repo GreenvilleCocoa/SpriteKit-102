@@ -24,6 +24,7 @@
 		45EF49A318CD517F0063E473 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45EF497B18CD517F0063E473 /* UIKit.framework */; };
 		45EF49AB18CD517F0063E473 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 45EF49A918CD517F0063E473 /* InfoPlist.strings */; };
 		45EF49AD18CD517F0063E473 /* SpriteKitDemo2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45EF49AC18CD517F0063E473 /* SpriteKitDemo2Tests.m */; };
+		45EF49B918CD698E0063E473 /* explosion.png in Resources */ = {isa = PBXBuildFile; fileRef = 45EF49B818CD698E0063E473 /* explosion.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		45EF49A818CD517F0063E473 /* SpriteKitDemo2Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteKitDemo2Tests-Info.plist"; sourceTree = "<group>"; };
 		45EF49AA18CD517F0063E473 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		45EF49AC18CD517F0063E473 /* SpriteKitDemo2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteKitDemo2Tests.m; sourceTree = "<group>"; };
+		45EF49B818CD698E0063E473 /* explosion.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = explosion.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 				45EF499418CD517F0063E473 /* MyScene.h */,
 				45EF499518CD517F0063E473 /* MyScene.m */,
 				45EF499918CD517F0063E473 /* Images.xcassets */,
+				45EF49B818CD698E0063E473 /* explosion.png */,
 				45EF498018CD517F0063E473 /* Supporting Files */,
 			);
 			path = SpriteKitDemo2;
@@ -244,6 +247,7 @@
 				45EF499018CD517F0063E473 /* Main_iPad.storyboard in Resources */,
 				45EF498D18CD517F0063E473 /* Main_iPhone.storyboard in Resources */,
 				45EF498418CD517F0063E473 /* InfoPlist.strings in Resources */,
+				45EF49B918CD698E0063E473 /* explosion.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
