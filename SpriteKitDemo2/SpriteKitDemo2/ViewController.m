@@ -11,9 +11,9 @@
 
 @implementation ViewController
 
-- (void)viewWillAppear:(BOOL)animated
+- (void)viewWillLayoutSubviews
 {
-    [super viewWillAppear:animated];
+    [super viewWillLayoutSubviews];
     
     SKView * skView = (SKView *)self.view;
 
@@ -24,7 +24,7 @@
     skView.showsNodeCount = YES;
     
     // Create and configure the scene.
-    SKScene * scene = [MyScene sceneWithSize:CGSizeMake(1024, 768)];
+    SKScene * scene = [MyScene sceneWithSize:skView.bounds.size];
     scene.scaleMode = SKSceneScaleModeAspectFill;
     
     // Present the scene.

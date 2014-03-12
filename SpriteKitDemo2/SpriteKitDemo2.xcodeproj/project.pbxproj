@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		459EC23418CFB102007B70A3 /* Fire.sks in Resources */ = {isa = PBXBuildFile; fileRef = 459EC23218CFB102007B70A3 /* Fire.sks */; };
+		459EC23518CFB102007B70A3 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 459EC23318CFB102007B70A3 /* spark.png */; };
+		459EC23718CFB4B1007B70A3 /* Smoke.sks in Resources */ = {isa = PBXBuildFile; fileRef = 459EC23618CFB4B1007B70A3 /* Smoke.sks */; };
+		459EC23C18CFC0AB007B70A3 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 459EC23A18CFC0AB007B70A3 /* Explosion.sks */; };
+		459EC23F18CFDA52007B70A3 /* Rain.sks in Resources */ = {isa = PBXBuildFile; fileRef = 459EC23E18CFDA52007B70A3 /* Rain.sks */; };
 		45EF497818CD517F0063E473 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45EF497718CD517F0063E473 /* Foundation.framework */; };
 		45EF497A18CD517F0063E473 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45EF497918CD517F0063E473 /* CoreGraphics.framework */; };
 		45EF497C18CD517F0063E473 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45EF497B18CD517F0063E473 /* UIKit.framework */; };
@@ -38,6 +43,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		459EC23218CFB102007B70A3 /* Fire.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Fire.sks; sourceTree = "<group>"; };
+		459EC23318CFB102007B70A3 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		459EC23618CFB4B1007B70A3 /* Smoke.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Smoke.sks; sourceTree = "<group>"; };
+		459EC23A18CFC0AB007B70A3 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Explosion.sks; path = ../Explosion.sks; sourceTree = "<group>"; };
+		459EC23E18CFDA52007B70A3 /* Rain.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Rain.sks; sourceTree = "<group>"; };
 		45EF497418CD517F0063E473 /* SpriteKitDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpriteKitDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45EF497718CD517F0063E473 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		45EF497918CD517F0063E473 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -131,6 +141,11 @@
 				45EF499218CD517F0063E473 /* ViewController.m */,
 				45EF499418CD517F0063E473 /* MyScene.h */,
 				45EF499518CD517F0063E473 /* MyScene.m */,
+				459EC23618CFB4B1007B70A3 /* Smoke.sks */,
+				459EC23218CFB102007B70A3 /* Fire.sks */,
+				459EC23E18CFDA52007B70A3 /* Rain.sks */,
+				459EC23A18CFC0AB007B70A3 /* Explosion.sks */,
+				459EC23318CFB102007B70A3 /* spark.png */,
 				45EF499918CD517F0063E473 /* Images.xcassets */,
 				45EF49B818CD698E0063E473 /* explosion.png */,
 				45EF498018CD517F0063E473 /* Supporting Files */,
@@ -244,10 +259,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				45EF499A18CD517F0063E473 /* Images.xcassets in Resources */,
+				459EC23C18CFC0AB007B70A3 /* Explosion.sks in Resources */,
 				45EF499018CD517F0063E473 /* Main_iPad.storyboard in Resources */,
+				459EC23F18CFDA52007B70A3 /* Rain.sks in Resources */,
 				45EF498D18CD517F0063E473 /* Main_iPhone.storyboard in Resources */,
+				459EC23518CFB102007B70A3 /* spark.png in Resources */,
+				459EC23418CFB102007B70A3 /* Fire.sks in Resources */,
 				45EF498418CD517F0063E473 /* InfoPlist.strings in Resources */,
 				45EF49B918CD698E0063E473 /* explosion.png in Resources */,
+				459EC23718CFB4B1007B70A3 /* Smoke.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -490,6 +510,7 @@
 				45EF49B218CD517F0063E473 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		45EF49B318CD517F0063E473 /* Build configuration list for PBXNativeTarget "SpriteKitDemo2Tests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +519,7 @@
 				45EF49B518CD517F0063E473 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
